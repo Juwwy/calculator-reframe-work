@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container p-5">
+        <div class=" row form-row">
+            <div class="col-md-12">
+                <h1>Calculator Building</h1>
+            </div>
+        </div>
+        <div class="row form-row mb-2">
+            <div class="col-md-12">
+                <input type="text" id="txtResult" readonly class="form-control">
+            </div>
+        </div>
+        <div class="row form-row mb-2">
+            <div class="col-md-6">
+                <input type="number" id="txtInput1"  class="form-control">
+            </div>
+            <div class="col-md-6">
+                <input type="number" id="txtInput2"  class="form-control">
+            </div>
+        </div>
+        <div class="row form-row mb-2">
+            <div class="col-md-6">
+                <input type="button" id="sumSign" value="+"  class="form-control btn btn-block btn-success">
+            </div>
+            <div class="col-md-6">
+                <input type="button" id="minusSign" value="-"  class="form-control btn btn-block btn-success">
+            </div>
+        </div>
+        <div class="row form-row mb-2">
+            <div class="col-md-6">
+                <input type="button" id="multiplySign" value="*"  class="form-control btn btn-block btn-success">
+            </div>
+            <div class="col-md-6 ">
+                <input type="button" id="divideSign" value="/"  class="form-control btn btn-block btn-success">
+            </div>
+        </div>
+        <div class="row form-row mb-2">
+            <div class="col-md-12">
+                <input type="button" id="moduloSign" value="%"  class="form-control btn btn-block btn-success">
+            </div>
+        </div>
+        <div class="row form-row mb-2">
+                <div class="col-md-6">
+                    <input type="button" id="clear" value="ClR" class="form-control btn btn-block btn-danger">
+                </div>
+                <div class="col-md-6 ">
+                    <input type="button" id="signEqual"  value="="  class="form-control btn btn-block btn-success">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
